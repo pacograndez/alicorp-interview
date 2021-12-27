@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: inherit;
+  padding: 30px 16px;
+}
+
+.mat-header-cell,
+.mat-cell {
+  text-align: center;
+}
+
+
+::ng-deep {
+  .mat-paginator-outer-container {
+    .mat-paginator-container {
+      justify-content: center;
+    }
+  }
+}
